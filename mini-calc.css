@@ -1,0 +1,57 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+section {
+  text-align: center;
+}
+header {
+  height: 60px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  line-height: 60px;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+main div {
+  height: 110px;
+  margin-top: 30px;
+  width: 700px;
+  background-color: rgb(231, 222, 222);
+  padding: 10px;
+  text-align: center;
+}
+main div p {
+  font-size: 20px;
+}
+.input-num {
+  padding: 10px 20px;
+}
+.buttons {
+  height: 38px;
+  width: 40px;
+  font-size: 25px;
+  background-color: rgb(18, 15, 244);
+  border: none;
+  color: white;
+}
+.response {
+  border: 1px solid black;
+  height: 80px;
+  width: 400px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(237, 230, 215);
+  color: black;
+  align-items: center;
+}
+section div p,
+h1,
+h2 {
+  border: 1px solid black;
+}
